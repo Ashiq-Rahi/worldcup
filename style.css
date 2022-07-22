@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 82.5vw;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 50px;
+    padding: 0 60px;
+}
+.banner-details h1{
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 85px 25px 20px 25px;
+}
+.banner-details p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.live{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: .5s;
+}
+.live:hover{
+    background-color: black;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+.banner-image img{
+    width: 500px;
+    margin-bottom: -7px;
+}
+.blog-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+    grid-gap: 15px;
+    justify-content: start;
+}
+.fixed-menu{
+    grid-row: 1 / 4;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.fixed-menu a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.schedule-list{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.last{
+    background-color: red;
+}
+.last a{
+    color: white;
+}
+.transfer{
+    padding: 4px 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+.footer h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: .5s;
+}
+.footer a:hover{
+    color: red;
+}
+hr{
+    border: .5px solid #222222;
+}
+.blog{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+/* match page starts */
+.match-time{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+.match{
+    grid-column: 1 / -1;
+    text-align: center;
+}
+.match h2{
+    margin-bottom: 10px;
+}
